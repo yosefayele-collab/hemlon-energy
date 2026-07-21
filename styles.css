@@ -175,6 +175,9 @@ ul{margin:0;padding:0;list-style:none}
 }
 .hero__badge .dot{width:7px;height:7px;border-radius:50%;background:var(--gold-400);box-shadow:0 0 0 0 rgba(255,184,28,.7);animation:pulse 2.4s infinite}
 @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(255,184,28,.6)}70%{box-shadow:0 0 0 9px rgba(255,184,28,0)}100%{box-shadow:0 0 0 0 rgba(255,184,28,0)}}
+.hero__biglogo{margin-bottom:32px}
+.hero__biglogo img{height:80px;width:auto}
+@media(max-width:640px){.hero__biglogo img{height:54px}}
 .hero h1{font-size:clamp(2.6rem,6vw,4.5rem);font-weight:800;letter-spacing:-.035em}
 .hero h1 .accent{
   background:linear-gradient(120deg,var(--gold-300),var(--gold-500));
