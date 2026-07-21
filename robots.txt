@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hemlon-energy.vercel.app/sitemap.xml
